@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-canvas-dark font-sans text-ink-dark antialiased;
+}
+
+html:not(.dark) body {
+  @apply bg-canvas text-ink;
+}
+
+@layer base {
+  :focus-visible {
+    @apply outline-none ring-2 ring-accent-dark ring-offset-2 ring-offset-canvas-dark;
+  }
+
+  html:not(.dark) :focus-visible {
+    @apply ring-accent ring-offset-canvas;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
