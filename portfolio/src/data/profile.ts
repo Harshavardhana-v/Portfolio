@@ -6,7 +6,7 @@ export const profile: Profile = {
   valueProposition:
     'Hire-ready engineer who ships full-stack products, automated tests, and applied ML — with published IEEE research in healthcare.',
   bio: 'Computer Science Engineering student at Dayananda Sagar College of Engineering (CGPA 8.86). I work across full-stack development, test automation, and DevOps, and I apply machine learning to healthcare problems. I care about verifiable work: internships, shipped projects, and peer-reviewed research rather than buzzwords.',
-  email: 'harshavardhana@example.com',
+  email: 'harshavardhana4nov@gmail.com',
   resumePath: '/resume.pdf',
   location: 'Bengaluru',
   education: 'B.E. CSE, Dayananda Sagar College of Engineering',
@@ -20,25 +20,25 @@ export const profile: Profile = {
     {
       id: 'github',
       label: 'GitHub',
-      href: 'https://github.com/',
+      href: 'https://github.com/Harshavardhana-v',
       icon: 'github',
     },
     {
       id: 'linkedin',
       label: 'LinkedIn',
-      href: 'https://www.linkedin.com/',
+      href: 'https://www.linkedin.com/in/harshavardhana-v-6a4862325',
       icon: 'linkedin',
     },
     {
       id: 'email',
       label: 'Email',
-      href: 'mailto:harshavardhana@example.com',
+      href: 'mailto:harshavardhana4nov@gmail.com',
       icon: 'email',
     },
     {
       id: 'leetcode',
       label: 'LeetCode',
-      href: 'https://leetcode.com/',
+      href: 'https://leetcode.com/u/Harshavardhanav01',
       icon: 'leetcode',
     },
   ],
